@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/global_layout"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/layout_player_1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textPlayer1"
+                android:layout_margin="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/contentPlayer1"
+                android:visibility="invisible"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_player_2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textPlayer2"
+                android:layout_margin="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/contentPlayer2"
+                android:visibility="invisible"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/layout_player_3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textPlayer3"
+                android:layout_margin="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/contentPlayer3"
+                android:visibility="invisible"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_player_4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textPlayer4"
+                android:layout_margin="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/contentPlayer4"
+                android:visibility="invisible"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="drawButton"
+            android:text="@string/tirer" />
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:onClick="drawNextButton"
+            android:text="@string/encore" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmashUp Setup</string>
+    <string name="player">Joueur</string>
+    <string name="addPlayer">Ajouter</string>
+    <string name="removePlayer">Supprimer</string>
+    <string name="extensions">Extensions</string>
+    <string name="extBase">Jeu de Base</string>
+    <string name="extMemePasMort">Meme pas Mort</string>
+    <string name="extCthulhuFhtagn">Cthulhu Fhtagn</string>
+    <string name="extSeriesB">Series B</string>
+    <string name="extMonsterSmash">Monster Smash</string>
+    <string name="extPrettyPretty">Pretty Pretty</string>
+    <string name="tirer">Tirer</string>
+    <string name="encore">Encore</string>
+
+</resources>

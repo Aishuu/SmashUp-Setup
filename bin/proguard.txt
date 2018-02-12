@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:7
+-keep class fr.eurecom.smashupsetup.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:105
+-keepclassmembers class * { *** drawButton(...); }
+
+# onClick res/layout/main.xml #generated:111
+-keepclassmembers class * { *** drawNextButton(...); }
+

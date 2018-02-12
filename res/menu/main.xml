@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/player"
+          android:title="@string/player" >
+        <menu>
+            <item android:id="@+id/addPlayer"
+                  android:title="@string/addPlayer" />
+            <item android:id="@+id/removePlayer"
+                  android:title="@string/removePlayer" />
+        </menu>
+    </item>
+    <item android:id="@+id/extensions"
+          android:title="@string/extensions" >
+        <menu>
+        <group android:checkableBehavior="all">
+            <item android:id="@+id/extBase"
+                  android:title="@string/extBase" />
+            <item android:id="@+id/extMemePasMort"
+                  android:title="@string/extMemePasMort" />
+            <item android:id="@+id/extCthulhuFhtagn"
+                  android:title="@string/extCthulhuFhtagn" />
+            <item android:id="@+id/extSeriesB"
+                  android:title="@string/extSeriesB" />
+            <item android:id="@+id/extMonsterSmash"
+                  android:title="@string/extMonsterSmash" />
+            <item android:id="@+id/extPrettyPretty"
+                  android:title="@string/extPrettyPretty" />
+        </group>
+        </menu>
+    </item>
+</menu>
